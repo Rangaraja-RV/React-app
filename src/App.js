@@ -4,7 +4,7 @@ import ListItems from "./ListItems";
 import { library } from "@fortawesome/fontawesome";
 import { faTrash } from "@fortawesome/free-solid-svg-icons";
 
-library.add(faTrash);
+library.add(faTrash); 
 
 class App extends React.Component {
   constructor(props) {
@@ -66,6 +66,7 @@ class App extends React.Component {
       items: items,
     })
   }
+  
   render() {
     return (
       <div className="App">
